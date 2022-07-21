@@ -32,7 +32,7 @@ const options = {
       }
       this.isActive = true;
       this.timeId = setInterval(() => {
-        deltaTime = selectedTime - Date.now();
+        let deltaTime = selectedTime - Date.now();
         if(deltaTime <= 0){
           clearInterval(this.timeId)
         return;
