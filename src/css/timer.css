@@ -1,0 +1,19 @@
+.timer {
+    display: flex;
+    font-size: 24px
+}
+
+.field:not(:last-child){
+    margin-right: 10px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
